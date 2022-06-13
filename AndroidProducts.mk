@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/nad_garden.mk
+   $(LOCAL_DIR)/nad_angelica.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_garden-userdebug \
-    nad_garden-eng \
-    nad_garden-user
+    nad_angelica-userdebug \
+    nad_angelica-eng \
+    nad_angelica-user

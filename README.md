@@ -1,1 +1,1 @@
-Unified Device Tree for Dandelion Angelica Cattail
+Device Tree for angelica

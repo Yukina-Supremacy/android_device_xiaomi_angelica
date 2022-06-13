@@ -29,18 +29,18 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 IS_PHONE := true
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
-# Inherit from garden device makefile
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+# Inherit from angelica device makefile
+$(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_garden
-PRODUCT_DEVICE := garden
+PRODUCT_NAME := nad_angelica
+PRODUCT_DEVICE := angelica
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := xiaomi
 
 # Build info
 TARGET_VENDOR := xiaomi
-TARGET_VENDOR_PRODUCT_NAME := garden
+TARGET_VENDOR_PRODUCT_NAME := angelica
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="raven-user 12 SP2A.220405.004 8233519 release-keys"
 
